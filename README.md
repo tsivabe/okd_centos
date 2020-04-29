@@ -23,7 +23,7 @@ https://github.com/mpeterson/rdo-openshift-tools
 2. Clone this repo
 
 ```
-git clone https://github.com/okd-community-install/installcentos.git
+git clone https://github.com/tsivabe/okd_centos.git
 ```
 
 3. Execute the installation script
@@ -58,7 +58,7 @@ $ export DISK="/dev/sda"
 3. Run the automagic installation script as root with the environment variable in place:
 
 ```
-curl https://raw.githubusercontent.com/okd-community-install/installcentos/master/install-openshift.sh | INTERACTIVE=false /bin/bash
+curl https://github.com/tsivabe/okd_centos/blob/master/install-openshift.sh | INTERACTIVE=false /bin/bash
 ```
 
 ## Development
@@ -67,7 +67,7 @@ For development it's possible to switch the script repo
 
 ```
 # Change location of source repository
-$ export SCRIPT_REPO="https://raw.githubusercontent.com/okd-community-install/installcentos/master"
+$ export SCRIPT_REPO="https://github.com/tsivabe/okd_centos/blob/master"
 $ curl $SCRIPT_REPO/install-openshift.sh | /bin/bash
 ```
 
