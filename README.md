@@ -5,9 +5,9 @@ This repository is a set of scripts that will allow you easily install the lates
 
 **If you are wanting to install OCP on RDO (OpenStack)**
 
-Michel Peterson has created a wrapper script in his repo that will do all the heavy lifting for you. Check it out!  
+Wrapper script in this repo that will do all the heavy lifting for you. Check it out!  
 
-https://github.com/mpeterson/rdo-openshift-tools
+https://github.com/tsivabe/rdo-openshift-tools-master
 
 
 **Please do use a clean CentOS system, the script installs all necesary tools and packages including Ansible, container runtime, etc.**
