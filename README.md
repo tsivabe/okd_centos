@@ -1,4 +1,3 @@
-**Note:** Update: November 2019 - I no longer work at Red Hat on the OpenShift team.  Given that, I will not be updating this repo to work with OpenShift 4.x on baremetal.  My future work will be centered on a more pure upstream kubernetes experience.  If a community member wants to add support for 4.x, I will gladly accept a PR.
 
 Install RedHat OKD 3.11 on your own server.  For a local only install, it is suggested that you use CDK or MiniShift instead of this repo.  This install method is targeted for a single node cluster that has a long life.
 
@@ -19,7 +18,7 @@ https://github.com/mpeterson/rdo-openshift-tools
 
 ## Installation
 
-1. Create a VM as explained in https://www.youtube.com/watch?v=ZkFIozGY0IA (this video) by Grant Shipley
+1. Create a VM as explained in https://www.youtube.com/watch?v=ZkFIozGY0IA 
 
 2. Clone this repo
 
